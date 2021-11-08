@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+.general{
+    display: flex;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+}
+h2{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: 600;
+}
+.inputs{
+    margin: 0px 0px 0px 200px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.interfaz{
+    display: flex;
+}
+input{
+    margin-bottom: 5px;
+    padding: 5px;
+    width: 300px;
+    
+}
+
+.matricular_btn{
+    background-color: #4472C4;
+    border-style: none;
+    color: white;
+    height: 50px;
+    width: 100px;
+    margin: 100px 0px 0px 20px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+}
+
+.columnasBonos {
+    display: flex;
+    margin: 50px 0px 0px 200px;
+    
+}
+
+#sinBono{
+    justify-content: center;
+    margin-right: 100px;
+}
+.btn{
+    background-color: #4472C4;
+    border-style: none;
+    width: 250px;
+}
+
+#bonoPlata{
+    justify-content: center;
+    margin-right: 100px;
+}
+
+#bonoOro{
+    justify-content: center;
+    margin-right: 100px;
+}
+
+.bloqueTarea{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    background: white;
+    border-style: solid;
+    border-color: rgb(177, 177, 177);
+    border-width: 2px;
+    margin-top: 2em;
+    margin-bottom: 4em;
+    padding: 10px;
+    position: relative;
+}
+
+.nombreCurso{
+    position: relative;
+    color: gray;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+}
+.nombreEstudiante{
+    position: relative;
+    color: rgb(31, 31, 31);
+    margin-bottom: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+}
+.codigoEstudiante{
+    position: relative;
+    color: rgb(31, 31, 31);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+.numeroParticipaciones{
+    position: relative;
+    color: rgb(31, 31, 31);
+    margin-left: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+}
+.botonEliminar{
+    border-radius: 50%;
+    position: relative;
+    margin-top: -40px;
+    margin-left: 100px;
+    padding: 20px;
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-color: black;
+    background-color: #C00000;
+    cursor: pointer;
+}
+
+.botonSubirRango{
+    position: relative;
+    margin-top: 10px;
+    margin-left: 100px;
+    padding: 20px;
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-color: black;
+    background-color: #4472C4;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+}

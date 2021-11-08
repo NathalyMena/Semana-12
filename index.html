@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Quiz2</title>
+        <link rel="stylesheet" href="css/index.css">
+    </head>
+    <body>
+<div class="general">
+    <div id="botonesTareas" class="inputs">
+        <h1 class="titulo">Profes Inc.</h1>
+        <input id="curso" placeholder="Curso" type="text">
+        <input id="estudiante" placeholder="Estudiante" type="text">
+        <input id="codigo" placeholder="Código" type="text"> 
+    </div>
+    
+    <button id="matricular" class="matricular_btn">Matricular</button>
+</div>  
+
+    
+
+<div class="columnasBonos">
+    <div id="sinBono">
+        <button class="btn">
+            <h2>Sin bono</h2>
+        </button>
+
+        
+    <div id="contenedorTarjetas">
+
+    </div>
+</div>
+
+<div id="bonoPlata">
+    <button class="btn">
+        <h2>Bono Plata +0,3</h2>
+    </button>
+    <div id="contenedorTarjetas2">
+
+    </div>
+</div>
+
+<div id="bonoOro">
+    <button class="btn">
+        <h2>Bono Oro +0,5</h2>
+    </button>
+    <div id="contenedorTarjetas3">
+
+    </div>
+</div>
+
+
+</div>
+
+    </body>
+    </html>
+
+    <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-analytics.js"></script>
+    <!--aqui abajo es donde tenes que reemplazar la info por lo que te salga en tu firebase-->
+    <script>
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        var firebaseConfig = {
+            apiKey: "AIzaSyDQfcx8tGxFN32ocr9NdceJra2C60uT2lM",
+            authDomain: "quiz-75074.firebaseapp.com",
+            databaseURL: "https://quiz-75074-default-rtdb.firebaseio.com/",
+            projectId: "quiz-75074",
+            storageBucket: "quiz-75074.appspot.com",
+            messagingSenderId: "705721994811",
+            appId: "1:705721994811:web:6d8d647733516d9976561e"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+      </script>
+
+      <script src="components/Tarjeta.js"></script>
+      <script src="js/index.js"></script>
